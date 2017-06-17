@@ -1,10 +1,36 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.12
+VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6B2CF033-1E82-47E7-96DD-7A8EC7180C6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{13354531-89B1-4D06-AD9D-8C035FD453A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Distribution.Random.Tests", "tests\c-sharp\System.Distribution.Random.Tests\System.Distribution.Random.Tests.csproj", "{105CD87E-993F-42A0-9637-C9BF7C8AB1E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Distribution.Random", "src\c-sharp\System.Distribution.Random\System.Distribution.Random.csproj", "{41776784-5F5B-4D79-96C2-B19252166B2B}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{105CD87E-993F-42A0-9637-C9BF7C8AB1E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{105CD87E-993F-42A0-9637-C9BF7C8AB1E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{105CD87E-993F-42A0-9637-C9BF7C8AB1E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{105CD87E-993F-42A0-9637-C9BF7C8AB1E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41776784-5F5B-4D79-96C2-B19252166B2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41776784-5F5B-4D79-96C2-B19252166B2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41776784-5F5B-4D79-96C2-B19252166B2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41776784-5F5B-4D79-96C2-B19252166B2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{105CD87E-993F-42A0-9637-C9BF7C8AB1E8} = {13354531-89B1-4D06-AD9D-8C035FD453A0}
+		{41776784-5F5B-4D79-96C2-B19252166B2B} = {6B2CF033-1E82-47E7-96DD-7A8EC7180C6D}
 	EndGlobalSection
 EndGlobal
