@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\src\c-sharp\System.Distribution.Random\System.Distribution.csproj" />
+    <ProjectReference Include="..\..\..\src\c-sharp\System.Distribution\System.Distribution.csproj" />
   </ItemGroup>
 
   <ItemGroup>
